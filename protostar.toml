@@ -1,0 +1,16 @@
+["protostar.config"]
+protostar_version = "0.4.2"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+
+["protostar.shared_command_configs"]
+cairo_path = ["./src"]
+
+[profile.devnet.protostar.deploy]
+gateway-url = "http://127.0.0.1:5050/"
+
+[profile.testnet.protostar.deploy]
+network="alpha-goerli"
